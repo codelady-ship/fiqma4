@@ -1,5 +1,44 @@
-@ media (max-width 768px){
-    nav{
-        width: 80%;
+@media (max-width: 771px;){
+    
+    .links a,.login a{
+        font-size: 1rem;
+        padding: 1rem;
+        position: fixed;
     }
+    main .left img{
+        max-width: 100%;
+    }
+    .left .simple{
+        margin: 5%;
+    }
+    .right img{
+        width: 555px;
+    }
+}
+
+
+@media (max-width: 500px;){
+    
+    .links a,.login a{
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        position: fixed;
+    }
+    main .left img{
+        max-width: 50%;
+    }
+    .left .simple{
+        margin: 2%;
+    }
+    .right img{
+        width: 355px;
+    }
+    .left .A{
+        display:flex ;
+        flex-direction: column ;
+        column-gap: 10px;
+    }
+    .navbars{
+        display: block;
+}
 }
