@@ -12,6 +12,11 @@ nav{
     display: flex;
     margin: 2%;
 }
+.container{
+    max-width: 90vw;
+    margin: auto;
+}
+
 .logo{
     display: flex;
 }
